@@ -19,7 +19,7 @@ void loop()
 {
   int randDelay = random(150, 300);
   lcd.clear();
-  lcd.print("Tot");
+  lcd.print("LB_2");
   lineSensors.read(lineSensorValues);
   
   motors.setLeftSpeed(400);
